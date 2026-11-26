@@ -1,0 +1,11 @@
+#pragma once
+
+static const char WIFI_SSID[] = "";
+static const char WIFI_PASSWORD[] = "";
+
+// OTA is disabled unless this is at least 16 characters long.
+// Use a unique password; do not reuse the Wi-Fi password.
+static const char OTA_PASSWORD[] = "";
+
+// Bus address for this ESP controller. Must be unique on the bus (1-4).
+static constexpr unsigned char MISTRAL_PR_NUMBER = 1;

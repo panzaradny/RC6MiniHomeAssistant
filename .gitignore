@@ -1,0 +1,18 @@
+# Local credentials and generated build output
+config.h
+mqtt_config.h
+build/
+build_*/
+*.bin
+*.elf
+*.map
+*.hex
+*.eep
+*.lss
+*.sym
+*.o
+*.d
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+#pragma once
+
+#define MQTT_ENABLED true
+
+// IPv4 address only (no hostname). Leave empty to disable broker connection.
+#define MQTT_HOST_IP ""
+#define MQTT_PORT 1883
+
+// Leave both empty if the broker does not require authentication.
+#define MQTT_USERNAME ""
+#define MQTT_PASSWORD ""
+
+// The firmware adds /pr<N> to this base topic.
+#define MQTT_BASE_TOPIC "mistral"
